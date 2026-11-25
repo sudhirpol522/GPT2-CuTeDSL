@@ -1,3 +1,5 @@
+#Later, for our full inference engine, we'll introduce a compilation cache and potentially use CuTe DSL's TVM FFI calling path to minimize Python dispatch overhead
+
 import torch
 import cutlass.cute as cute
 import cutlass
